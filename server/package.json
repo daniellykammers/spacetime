@@ -1,0 +1,26 @@
+{
+  "name": "spacetime-server",
+  "version": "0.0.1",
+  "description": "Spacetime Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "author": "Danielly Kammers + Rocketseat",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/node": "^20.2.1",
+    "eslint": "^8.41.0",
+    "prisma": "^4.14.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@prisma/client": "^4.14.1",
+    "fastify": "^4.17.0",
+    "zod": "^3.21.4"
+  }
+}
